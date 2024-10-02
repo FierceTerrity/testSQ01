@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/index.ts",
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationDir": "lib/types",
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node",
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["./node_modules"]
+}
